@@ -1,0 +1,32 @@
+{
+  "name": "snowflake-id",
+  "version": "0.0.1",
+  "description": "snowflake id websocket server and client",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=* node .",
+    "dev": "DEBUG=cluster,server,websocket,snowflake nodemon .",
+    "debug-cli-fl": "node inspect .",
+    "debug-chrome": "nodemon --inspect .",
+    "debug-chrome-fl": "node --inspect-brk .",
+    "prod": "yarn install --prod --frozen-lockfile",
+    "lint": "DEBUG=eslint:cli,eslint:file-enumerator,eslint:cli-engine,eslint:source-code-fixer eslint . --fix"
+  },
+  "exports": {
+    ".": "./client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iphios/snowflake-id.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  }
+}

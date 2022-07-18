@@ -1,0 +1,11 @@
+{
+  "ignore": [
+    "tests/*.test.js"
+  ],
+  "restartable": "rs",
+  "colours": true,
+  "ext": "js,json,yml",
+  "signal": "SIGHUP",
+  "delay": 0,
+  "verbose": true
+}
