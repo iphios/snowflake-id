@@ -13,7 +13,7 @@
     "lint": "DEBUG=eslint:cli,eslint:file-enumerator,eslint:cli-engine,eslint:source-code-fixer eslint . --fix"
   },
   "exports": {
-    ".": "./client.js"
+    ".": "./src/client.js"
   },
   "repository": {
     "type": "git",
