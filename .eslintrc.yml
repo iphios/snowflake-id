@@ -7,7 +7,8 @@ env:
   commonjs: true
   es2022: true
   jest: true
-extends: eslint:recommended
+extends:
+  - eslint:recommended
 parserOptions:
   ecmaVersion: latest
 rules:
